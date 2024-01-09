@@ -1,7 +1,8 @@
 import React from "react";
-import { useSearch } from "../../context/Search";
+import { useSearch } from "./../../context/Search";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+// import { useSearch } from "../../context/Search";
 
 const REACT_APP_API = 'https://ecommercebackend-htkc.onrender.com';
 

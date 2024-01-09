@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import {Layout} from "./../components/layout/Layout.jsx";
 import axios from "axios";
 import { useParams, useNavigate } from "react-router-dom";
-import "../styles/ProductDetailsStyles.css";
+import "./../styles/ProductDetailsStyles.css";
 
 const REACT_APP_API =' https://ecommercebackend-htkc.onrender.com';
 

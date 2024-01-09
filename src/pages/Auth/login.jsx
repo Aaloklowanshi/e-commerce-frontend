@@ -6,8 +6,8 @@ import {useState} from "react";
 import {useNavigate , useLocation} from "react-router-dom";
 import toast, { Toaster } from 'react-hot-toast';
 import axios from "axios"
-import { useAuth } from '../../context/auth';
-import { Layout } from '../../components/Layout/Layout';
+import { useAuth } from './../../context/auth.jsx';
+import {Layout} from './../../components/layout/Layout.jsx'
 
 const REACT_APP_API =' https://ecommercebackend-htkc.onrender.com';
 

@@ -1,10 +1,10 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import { useAuth } from "../../context/auth";
+import { useAuth } from "./../../context/auth";
 import toast from "react-hot-toast"
 import SearchInput from "../form/SearchInput";
-import useCategory from "../../hooks/UseCategory";
-import { useCart } from "../../context/cart";
+import useCategory from "./../../hooks/UseCategory";
+import { useCart } from "./../../context/Cart";
 import { Badge } from "antd";
 // import  useAuth  from "../../context/auth";
 

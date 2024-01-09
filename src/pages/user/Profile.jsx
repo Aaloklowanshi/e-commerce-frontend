@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 // import UserMenu from "../../components/Layout/UserMenu";
-import {Layout} from "./../../components/Layout/Layout";
+import {Layout} from "./../../components/layout/Layout.jsx";
 import { useAuth } from "../../context/auth";
 import toast from "react-hot-toast";
 import axios from "axios";
-import UserMenu from "../../components/layout/UserMenu";
+import UserMenu from "./../../components/layout/UserMenu.jsx";
 const REACT_APP_API =' https://ecommercebackend-htkc.onrender.com';
 const Profile = () => {
   //context

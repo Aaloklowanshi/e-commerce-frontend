@@ -1,9 +1,10 @@
 import React , {useEffect , useState} from 'react'
-import {Layout} from '../../components/Layout/Layout'
-import AdminMenu from '../../components/layout/AdminMenu'
+import {Layout} from './../../components/layout/Layout.jsx'
+
+import AdminMenu from './../../components/layout/AdminMenu.jsx'
 import axios from 'axios'
 import toast from "react-hot-toast";
-import CategoryForm from "../../components/form/CategoryForm";
+import CategoryForm from "./../../components/form/CategoryForm.jsx";
 import { Modal } from "antd";
 const REACT_APP_API =' https://ecommercebackend-htkc.onrender.com';
 

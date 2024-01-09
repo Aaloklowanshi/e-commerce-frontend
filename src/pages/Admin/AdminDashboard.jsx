@@ -1,7 +1,8 @@
 import React from 'react'
-import {Layout} from '../../components/Layout/Layout'
-import AdminMenu from '../../components/layout/AdminMenu'
-import { useAuth } from '../../context/auth'
+import {Layout} from './../../components/layout/Layout.jsx'
+// import AdminMenu from '../../components/layout/AdminMenu'
+import AdminMenu from './../../components/layout/AdminMenu.jsx'
+import { useAuth } from './../../context/auth.jsx'
 const AdminDashboard = () => {
   const [auth]  = useAuth();
   return (
