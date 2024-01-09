@@ -1,5 +1,5 @@
 import React from "react";
-import {Layout} from "./../components/Layout/Layout";
+import {Layout} from "./../components/layout/Layout.jsx";
 import { useSearch } from "../context/Search";
 const REACT_APP_API =' https://ecommercebackend-htkc.onrender.com';
 const Search = () => {

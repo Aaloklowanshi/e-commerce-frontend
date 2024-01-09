@@ -1,5 +1,5 @@
 import React from "react";
-import {Layout} from "../components/Layout/Layout";
+import {Layout} from "./../components/layout/Layout.jsx";
 
 import { BiMailSend, BiPhoneCall, BiSupport } from "react-icons/bi";
 // import Layout from "../components/Layout/Layout";
