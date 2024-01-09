@@ -4,7 +4,7 @@ import Footer from './Footer'
 import {Helmet} from "react-helmet"
 import toast, { Toaster } from 'react-hot-toast';
 
-const Layout = ({children , title , description , keywords , author}) => {
+export const Layout = ({children , title , description , keywords , author}) => {
   return (
     <div>
         {/* <Helmet>
@@ -29,4 +29,4 @@ const Layout = ({children , title , description , keywords , author}) => {
   )
 }
 
-export default Layout;
+// export default Layout;

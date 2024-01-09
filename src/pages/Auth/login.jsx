@@ -1,5 +1,4 @@
 import React from 'react'
-import Layout from '../../components/layout/layout';
 import Button from '@mui/material/Button';
 import TextField from "@mui/material/TextField";
 import {Card, Typography} from "@mui/material";
@@ -8,6 +7,7 @@ import {useNavigate , useLocation} from "react-router-dom";
 import toast, { Toaster } from 'react-hot-toast';
 import axios from "axios"
 import { useAuth } from '../../context/auth';
+import { Layout } from '../../components/Layout/Layout';
 
 const REACT_APP_API =' https://ecommercebackend-htkc.onrender.com';
 

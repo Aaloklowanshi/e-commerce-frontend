@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../../components/Layout/Layout'
+import {Layout} from '../../components/Layout/Layout'
 import Button from '@mui/material/Button';
 import TextField from "@mui/material/TextField";
 import {Card, Typography} from "@mui/material";

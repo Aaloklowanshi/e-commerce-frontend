@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
-import Layout from "./../../components/Layout/Layout";
-import AdminMenu from "./../../components/Layout/AdminMenu";
+import {Layout} from "./../../components/Layout/Layout";
+// import AdminMenu from "./../../components/Layout/AdminMenu";
 import toast from "react-hot-toast";
 import axios from "axios";
 import { Select } from "antd";
 import { useNavigate, useParams } from "react-router-dom";
+import AdminMenu from "../../components/layout/AdminMenu";
 const { Option } = Select;
 const REACT_APP_API =' https://ecommercebackend-htkc.onrender.com';
 
