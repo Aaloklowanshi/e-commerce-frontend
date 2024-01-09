@@ -7,7 +7,7 @@ import toast from "react-hot-toast";
 import {Layout} from "./../components/layout/Layout.jsx";
 import { AiOutlineReload } from "react-icons/ai";
 import "../styles/Homepage.css";
-import { useCart } from "../context/cart";
+import { useCart } from "./../context/Cart.jsx";
 
 const REACT_APP_API =' https://ecommercebackend-htkc.onrender.com';
 
