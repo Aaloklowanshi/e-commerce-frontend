@@ -29,4 +29,4 @@ const Layout = ({children , title , description , keywords , author}) => {
   )
 }
 
-export default Layout
+export default Layout;
